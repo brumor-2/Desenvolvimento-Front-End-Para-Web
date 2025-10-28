@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ONG Exemplo — Missão, Projetos e Transparência</title>
+  <meta name="description" content="Plataforma da ONG Exemplo: missão, visão, valores, projetos e transparência. Contato e formas de apoiar.">
+  <link rel="preload" href="assets/img/hero.png" as="image">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="container navbar">
+      <div class="brand" aria-label="Marca da organização">
+        <span aria-hidden="true">🤝</span>
+        <span>ONG Exemplo</span>
+      </div>
+      <nav aria-label="Navegação principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="cadastro.html">Cadastro</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container" role="main">
+    <section class="hero" aria-labelledby="titulo-hero">
+      <div class="grid">
+        <div>
+          <h1 id="titulo-hero">Plataforma Solidária — conectando ONGs, voluntários e doadores</h1>
+		  <p>Um espaço onde organizações sociais divulgam seus projetos, voluntários se inscrevem e doadores apoiam causas de todo o Brasil.</p>
+          <p><a class="btn" href="projetos.html">Conheça os projetos</a></p>
+        </div>
+        <figure>
+          <img src="assets/img/hero.png" width="1600" height="900" alt="Voluntários da ONG atuando em atividades comunitárias">
+          <figcaption class="helper">Atividades comunitárias realizadas pela ONG.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="sobre">
+      <h2 id="sobre">Sobre a Plataforma</h2>
+      <div class="grid grid-3">
+        <article class="card" aria-labelledby="hist">
+          <h3 id="hist">Nosso Propósito</h3>
+          <p>Facilitar a conexão entre ONGs, doadores e voluntários por meio da tecnologia.</p>
+        </article>
+        <article class="card" aria-labelledby="equipe">
+          <h3 id="equipe">Como Funciona</h3>
+          <img src="assets/img/equipe.png" alt="Retrato ilustrativo da equipe e voluntários">
+          <p>As ONGs se cadastram, divulgam seus projetos e acompanham resultados.</p>
+        </article>
+        <article class="card" aria-labelledby="transp">
+          <h3 id="transp">Transparência</h3>
+          <p>Publicamos relatórios e dados abertos sobre as ações sociais cadastradas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="contato">
+      <h2 id="contato">Entre em Contato</h2>
+	  <p>Tem uma ONG ou projeto social? Fale conosco para cadastrar sua instituição na Plataforma Solidária.</p>
+
+      <address class="card" aria-label="Informações de contato">
+        <p><strong>E-mail:</strong> <a href="mailto:contato@ongexemplo.org">contato@ongexemplo.org</a></p>
+        <p><strong>Telefone:</strong> <a href="tel:+5511999999999">+55 (11) 99999‑9999</a></p>
+        <p><strong>Endereço:</strong> Rua da Cidadania, 123 — São Paulo/SP</p>
+      </address>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      © <span id="ano"></span> ONG Exemplo — conteúdo sob licença CC BY 4.0.
+    </div>
+  </footer>
+  <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos e Voluntariado — ONG Exemplo</title>
+  <meta name="description" content="Conheça nossos projetos, oportunidades de voluntariado e como doar para ampliar o impacto.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="container navbar">
+      <div class="brand">
+        <span aria-hidden="true">🤝</span>
+        <span>ONG Exemplo</span>
+      </div>
+      <nav aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="projetos.html" aria-current="page">Projetos</a>
+        <a href="cadastro.html">Cadastro</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <header>
+      <h1>Projetos sociais em andamento</h1>
+      <p>Veja as iniciativas atuais e como você pode participar como <strong>voluntário</strong> ou <strong>doador</strong>.</p>
+    </header>
+
+    <section aria-labelledby="educacao">
+      <article class="card">
+        <div class="grid grid-2">
+          <figure>
+            <img src="assets/img/projeto1.png" alt="Aula comunitária de alfabetização">
+          </figure>
+          <div>
+            <h2 id="educacao">Alfabetização Comunitária</h2>
+            <p>Oficinas semanais com metodologia participativa, acolhendo jovens e adultos que desejam avançar nos estudos.</p>
+            <ul>
+              <li><strong>Meta:</strong> 150 alunos por semestre</li>
+              <li><strong>Voluntariado:</strong> monitores, apoio pedagógico</li>
+              <li><strong>Doações:</strong> cadernos, lápis, lanches</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section aria-labelledby="cestas">
+      <article class="card">
+        <div class="grid grid-2">
+          <figure>
+            <img src="assets/img/projeto2.png" alt="Cestas básicas organizadas para entrega">
+          </figure>
+          <div>
+            <h2 id="cestas">Cestas Básicas</h2>
+            <p>Campanha contínua para segurança alimentar de famílias em vulnerabilidade. Transparência com metas e prestação de contas.</p>
+            <ul>
+              <li><strong>Meta:</strong> 500 cestas/mês</li>
+              <li><strong>Voluntariado:</strong> logística e triagem</li>
+              <li><strong>Doações:</strong> alimentos não perecíveis</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <aside class="card" aria-labelledby="como-participar">
+      <h2 id="como-participar">Participe da Plataforma</h2>
+	  <p>Crie seu perfil como voluntário, ONG ou doador. Assim você pode interagir com projetos, acompanhar campanhas e fazer a diferença.</p>
+
+      <p>Você pode <a href="cadastro.html">cadastrar-se</a> como voluntário, receber novidades por e-mail e apoiar financeiramente os projetos.</p>
+	  
+    </aside>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      © <span id="ano"></span> ONG Exemplo — relatórios disponíveis mediante solicitação.
+    </div>
+  </footer>
+  <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>
