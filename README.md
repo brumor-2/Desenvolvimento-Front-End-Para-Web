@@ -7,18 +7,8 @@ Este pacote contém 3 páginas HTML5 semânticas com imagens e um formulário co
 
 ## Estrutura de pastas
 assets/
-  css/styles.css
-  js/masks.js
   img/hero.png, projeto1.png, projeto2.png, equipe.png
 index.html
 projetos.html
 cadastro.html
 README.md
-
-## Como publicar no GitHub Pages
-1. Crie um repositório público, por ex. `plataforma-ong-entrega1`.
-2. Faça upload de todos os arquivos mantendo a estrutura.
-3. Vá em Settings → Pages e selecione a branch principal (root).
-
-## Dica de validação no W3C
-Use o W3C Markup Validator para cada arquivo HTML.
