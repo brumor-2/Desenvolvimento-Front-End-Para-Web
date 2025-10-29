@@ -566,3 +566,13 @@ textarea:required:valid {
     opacity: 1; visibility: visible; transform: translateY(0);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0f172a;
+    color: #f1f5f9;
+  }
+  .card { background: #1e293b; }
+  a, .btn { color: #93c5fd; }
+}
+
