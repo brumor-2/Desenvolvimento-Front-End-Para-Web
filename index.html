@@ -16,14 +16,14 @@
         <span>ONG Exemplo</span>
       </div>
       <nav aria-label="Navegação principal">
-        <a href="index.html" aria-current="page">Início</a>
-        <a href="projetos.html">Projetos</a>
-        <a href="cadastro.html">Cadastro</a>
+        <a href="#/" aria-current="page">Início</a>
+        <a href="#/projetos">Projetos</a>
+        <a href="#cadastro">Cadastro</a>
       </nav>
     </div>
   </header>
 
-  <main id="conteudo" class="container" role="main">
+  <main id="app" class="container" role="main">
     <section class="hero" aria-labelledby="titulo-hero">
       <div class="grid">
         <div>
@@ -74,6 +74,8 @@
       © <span id="ano"></span> ONG Exemplo — conteúdo sob licença CC BY 4.0.
     </div>
   </footer>
-  <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+  
+  <script src="assets/js/app.js"></script>
+
 </body>
 </html>
