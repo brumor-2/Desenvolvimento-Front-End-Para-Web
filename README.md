@@ -8,7 +8,7 @@ Seu objetivo é oferecer uma presença digital acessível e funcional para o ter
 O projeto foi desenvolvido ao longo de quatro entregas, evoluindo desde a estrutura HTML até a integração completa de **acessibilidade, versionamento e deploy.**
 
 Acesse o projeto online
-**[Visualizar site no GitHub Pages](https://brumor-2.github.io/Desenvolvimento-Front-End-Para-Web---Entrega-I-Fundamentos-e-Estrutura-o/)**
+**[Visualizar site no GitHub Pages](https://brumor-2.github.io/Desenvolvimento-Front-End-Para-Web/)**
 
 ---
 
