@@ -449,3 +449,30 @@
     return { init };
   })();
 })();
+
+/* =========================================================
+   Alternar modo escuro / claro (WCAG acessível)
+   ========================================================= */
+document.addEventListener('DOMContentLoaded', () => {
+  const btnDark = document.querySelector('#toggle-dark');
+  if (!btnDark) return; // evita erro se botão não existir
+
+  btnDark.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+
+    // salva preferência no navegador
+    const darkAtivo = document.body.classList.contains('dark');
+    localStorage.setItem('tema', darkAtivo ? 'dark' : 'light');
+
+    // muda o texto do botão
+    btnDark.textContent = darkAtivo ? 'Modo claro' : 'Modo escuro';
+  });
+
+  // restaura preferência ao recarregar
+  const temaSalvo = localStorage.getItem('tema');
+  if (temaSalvo === 'dark') {
+    document.body.classList.add('dark');
+    btnDark.textContent = 'Modo claro';
+  }
+});
+

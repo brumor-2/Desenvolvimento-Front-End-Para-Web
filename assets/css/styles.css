@@ -1,5 +1,4 @@
 /* =========================================================
-   Design System • Tokens
    - Paleta (8+ cores), tipografia (5+ tamanhos),
      espaçamento modular, radius, sombra, breakpoints
    ========================================================= */
@@ -567,12 +566,36 @@ textarea:required:valid {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #0f172a;
-    color: #f1f5f9;
-  }
-  .card { background: #1e293b; }
-  a, .btn { color: #93c5fd; }
+
+/* =========================================================
+   Tema Escuro (modo acessível)
+   ========================================================= */
+.dark {
+  --bg: #0f172a;
+  --panel: #1e293b;
+  --text: #f1f5f9;
+  --muted: #cbd5e1;
+  --brand: #60a5fa;
+  --brand-contrast: #0f172a;
+}
+
+.dark body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.dark .header {
+  background: #1e293b;
+  color: var(--text);
+}
+
+.dark .card {
+  background: var(--panel);
+  color: var(--text);
+}
+
+.dark .footer {
+  border-top: 1px solid #334155;
+  color: var(--muted);
 }
 
